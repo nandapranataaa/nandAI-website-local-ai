@@ -6,7 +6,7 @@ const fileInput = promptForm.querySelector("#file-input");
 const fileUploadWrapper = promptForm.querySelector(".file-upload-wrapper");
 const themaToggle = document.querySelector("#theme-toggle-btn");
 
-const API_KEY = "AQ.Ab8RN6IUL-qFkZUebrKzFjjY12i1HLP19skA9DLVG7j7hO9P6A"; //replace your API Key , Open your Google AI Studio//
+const API_KEY = "AIzaSyAq5bTrLkgmWz_K7tDS4-Wbu2PPlYQ7vac"; //replace your API Key , Open your Google AI Studio//
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let typingInterval, controller;
